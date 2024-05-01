@@ -1,0 +1,21 @@
+{
+  "name": "site",
+  "private": true,
+  "scripts": {
+    "watch": "turbo watch docs dev",
+    "docs": "node ./scripts/docs.js",
+    "dev": "next dev",
+    "build": "next build"
+  },
+  "dependencies": {
+    "@types/node": "^20.12.7",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
+    "next": "^14.2.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tsup": "^8.0.2",
+    "turbo": "canary",
+    "typescript": "^5.4.5"
+  }
+}
